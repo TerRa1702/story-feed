@@ -31,13 +31,6 @@ window.onclick = function(event) {
 
 
 var swiper2 = new Swiper(".swiper-modal", {
-    // effect: "coverflow",
-    // coverflowEffect: {
-    //     rotate: 0,
-    //     stretch: 0,
-    //     depth: 200,
-    //     modifier: 1,
-    // },
     centeredSlides: true,
     slidesPerView: "auto",
     spaceBetween: 100,
