@@ -1,16 +1,14 @@
-.feed__wrapper {
-}
-
 .swiper-outer {
-    width: 100%;
     overflow-x: hidden;
 }
 
-.swiper-wrapper {
+.swiper-outer .swiper-wrapper {
     justify-content: center;
+    align-items: center;
+    overflow: visible;
 }
 
-.swiper-slide {
+.swiper-outer .swiper-slide {
     max-width: 160px;
 }
 
@@ -25,8 +23,8 @@
     border-radius: 50%;
     width: 92px;
     height: 92px;
-    
-    @media screen and (min-width: 1280px)  {
+
+    @media screen and (min-width: 1280px) {
         width: 148px;
         height: 148px;
     }

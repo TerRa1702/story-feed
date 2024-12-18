@@ -3,5 +3,6 @@ const swiper = new Swiper('.swiper-outer', {
         el: '.swiper-pagination',
         clickable: true,
     },
+    slidesPerView: 4,
     spaceBetween: 80,
 });
